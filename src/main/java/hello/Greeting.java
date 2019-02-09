@@ -11,11 +11,15 @@ public class Greeting {
     @JsonProperty("noMeaningTest")
     public final String subName;
 
+    @JsonProperty("anotherNoMeaningTest")
+    public final String strangeInfo;
+
 
     public Greeting(long id, String content) {
         this.id = id;
         this.content = content;
         subName = "trololo";
+        strangeInfo = "safdadfa";
     }
 
     public long getId() {
