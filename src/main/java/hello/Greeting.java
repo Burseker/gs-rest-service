@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Greeting {
 
+    //i'm jast add some comments
     private final long id;
     private final String content;
 
